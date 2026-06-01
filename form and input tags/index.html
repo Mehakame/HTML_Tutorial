@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and input tag></title>
+    <meta name="description" content="the form tag is used to collect user input">
+    <style>
+        
+            
+        div{
+            //background-color: aqua;
+            margin-left: 25vw;
+            margin-right : 25vw;
+        }
+            
+        
+    </style>
+</head>
+
+<body>
+    <form action="post">
+        <h1>Details</h1>
+        <div>
+            <video src="waterfall2.avi">openvideo</video>
+            <label for="username">enter your name </label>
+            <input type="text" id="username" name="username" placeholder="enter your name">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+       <div> <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+        <label for="subscribe">subscribe for </label></div>
+        <div>
+            <select name="fruits" >
+                
+                <option value="apple">apple</option>
+                <option value="banana">banana</option>
+                <option value="grapes">grapes</option>
+            </select>
+        </div>
+        <div>
+            <label for="comments">leave your comments</label><br>
+            <textarea name="comments" id="comments" cols="50" rows="4"></textarea>
+        </div>
+        
+
+    </form>
+</body>
+
+</html>
